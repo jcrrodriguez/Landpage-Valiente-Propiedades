@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Roboto:wght@300;500&display=swap");
+* {
+  font-family: 'Roboto', sans-serif; }
+
+.navbar {
+  background-color: #011E28; }
+
+.btn-nv {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+  background-color: #AE7453; }
+  .btn-nv:hover {
+    background-color: #fff;
+    color: #AE7453; }
+  .btn-nv--rev {
+    color: #011E28;
+    background-color: #fff; }
+    .btn-nv--rev:hover {
+      color: #fff;
+      background-color: #011E28; }
+
+.nav-item {
+  text-transform: uppercase; }
+
+.navbar-brand > img {
+  border-radius: 50%; }
+
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  overflow: hidden; }
+  .hero .background-blur-hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../assets/hero1.jpg") center/cover no-repeat;
+    filter: blur(2px);
+    z-index: -1; }
+  .hero .container {
+    position: relative;
+    z-index: 1; }
+  .hero h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    font-weight: 500; }
+  .hero p {
+    font-size: 1.4em;
+    margin-bottom: 30px; }
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s; }
+  .btn:hover {
+    background-color: #555; }
+
+.about {
+  background-color: #AE7453; }
+  .about h2 {
+    color: #011E28;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 0.9rem; }
+  .about p.lead {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 1.3rem; }
+
+.properties h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  color: #011E28; }
+
+.card > img:hover {
+  cursor: pointer; }
+
+.modal-body > p {
+  font-weight: 300; }
+
+.modal-body > h6 {
+  font-weight: 500; }
+
+.property-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; }
+  .property-status .badge {
+    background-color: #AE7453; }
+  .property-status .price {
+    font-size: 1.2rem;
+    color: #AE7453; }
+
+.list-unstyled li i {
+  margin-right: 5px; }
+
+.contacto-title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff; }
+
+.background-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../assets/hero2.jpg") center/cover no-repeat;
+  filter: blur(10px);
+  z-index: -1; }
+
+.contact .container-fluid {
+  position: relative;
+  z-index: 1; }
+
+.contact .row {
+  position: relative;
+  z-index: 2; }
+
+.contact .contact-form,
+.contact .contact-info {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px; }
+
+.contact .contact-info {
+  display: flex;
+  align-items: center; }
+  .contact .contact-info .contact-text {
+    flex-grow: 1; }
+    .contact .contact-info .contact-text > h4 {
+      color: #AE7453;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 500;
+      font-size: 0.8rem; }
+  .contact .contact-info .contact-img img {
+    border-radius: 50%;
+    max-width: 100%; }

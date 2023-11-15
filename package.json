@@ -1,0 +1,25 @@
+{
+  "name": "landpage-inmobiliaria-narela",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcrrodriguez/Landpage-Valiente-Propiedades.git"
+  },
+  "author": "siwi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcrrodriguez/Landpage-Valiente-Propiedades/issues"
+  },
+  "homepage": "https://github.com/jcrrodriguez/Landpage-Valiente-Propiedades#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
